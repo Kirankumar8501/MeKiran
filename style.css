@@ -334,9 +334,9 @@ span{
     font-size:1.6rem;
     margin: 2rem 0 3rem;
 }
-.btn-box.btns{
-    display: inline-block;
-    width:15rem;
+.btn-box.btns{    
+    display: inline-flex;
+    justify-content: space-around;           
 }
 .btn-box.btns a::before{
     background: var(--about-color);
